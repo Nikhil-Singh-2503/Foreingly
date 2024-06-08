@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+  padding: 5rem;
+  box-sizing: border-box;
+}
+
+.brandsBanner > svg {
+  color: #007e56;
+  font-size: 4rem;
+}
+
+.brandsBanner .chat:hover {
+  color: lightseagreen;
+}
+
+.brandsBanner .ninja:hover {
+  color: black;
+}
+
+.brandsBanner .path:hover {
+  color: red;
+}
+
+.brandsBanner .school:hover {
+  color: grey;
+}
+
+.brandsBanner .trophy:hover {
+  color: yellow;
+}
+
+.container2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container2 {
+    height: unset;
+    padding: 4vh 0;
+  }
+}
+.course {
+  width: 270px;
+  height: 450px;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+
+.course:hover {
+  transform: translateY(-12px);
+}
